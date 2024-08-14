@@ -1,0 +1,14 @@
+{
+  "name": "braille_translate",
+  "version": "0.1.0",
+  "files": [
+    "braille_translate_bg.wasm",
+    "braille_translate.js",
+    "braille_translate.d.ts"
+  ],
+  "module": "braille_translate.js",
+  "types": "braille_translate.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
