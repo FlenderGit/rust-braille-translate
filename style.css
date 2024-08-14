@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+body, button {
+    font-family: "Reddit Mono", monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(249, 249, 249, 0.692);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .15);
+}
+
+#translate {
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: rgb(56, 56, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#output {
+    font-size: xx-large;
+    text-align: center;
+    overflow-wrap: break-word;
+}
